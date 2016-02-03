@@ -1,0 +1,38 @@
+<project>
+	<!-- ========== Initialize Properties =================================== -->
+	<!-- set global properties for build -->
+	<property name="basedir" value="." />
+	<property name="lib" value="${basedir}/lib" />
+	<property name="src" value="${basedir}/src" />
+	<property name="bin" value="${basedir}/bin" />
+	<property name="report-dir" value="${basedir}/test-output" />
+	
+	<!-- ====== Set the classpath ====  -->
+	<path id="classpath">
+		<fileset dir="${lib}">
+			<include name="*.jar" />
+		</fileset>
+		<pathelement location="${bin}" />
+	</path>
+	
+	<!-- Delete files and folders in directories  -->
+	<target name="delete-dir">
+		<delete dir="${bin}/*" />
+		<delete dir="${report-dir/*}" />
+	</target>
+	
+	<!-- Compile the java code from ${src} into ${bin} .Create file .class--> 
+	<target name="compile" depends="delete-dir">
+		<javac srcdir="${src}" classpathref="classpath" includeAntRuntime="No" destdir="${bin}" />
+	</target>
+	
+	<!-- Runs the file and generates Reportng report for TestNG. Run file .class using testng-->
+	<taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="classpath" />
+	
+	<target name="testng-execution" depends="compile">
+		<mkdir dir="${report-dir}" />
+		<testng outputdir="${report-dir}" classpathref="classpath" useDefaultListeners="true">
+			<xmlfileset dir="${basedir}" includes="testng.xml" />
+		</testng>
+	</target>
+</project>

@@ -1,172 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51480" started-at="2016-02-04T07:08:16Z" finished-at="2016-02-04T07:09:08Z">
+  <suite name="Suite" duration-ms="74330" started-at="2016-02-04T09:19:43Z" finished-at="2016-02-04T09:20:57Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="51480" started-at="2016-02-04T07:08:16Z" finished-at="2016-02-04T07:09:08Z">
+    <test name="Test" duration-ms="74330" started-at="2016-02-04T09:19:43Z" finished-at="2016-02-04T09:20:57Z">
       <class name="com.pkg.test.LogInTest">
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="9685" started-at="2016-02-04T14:08:16Z" data-provider="DataProvider" finished-at="2016-02-04T14:08:26Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="10958" started-at="2016-02-04T16:19:43Z" data-provider="DataProvider" finished-at="2016-02-04T16:19:54Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[TC-001]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Username and password are required]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Alt]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="7315" started-at="2016-02-04T14:08:26Z" data-provider="DataProvider" finished-at="2016-02-04T14:08:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TC-002]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Incorrect username or password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Alt]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="9088" started-at="2016-02-04T14:08:33Z" data-provider="DataProvider" finished-at="2016-02-04T14:08:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TC-003]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[@#$%^]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[%$^#%%#]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Incorrect username or password]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Alt]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="8743" started-at="2016-02-04T14:08:42Z" data-provider="DataProvider" finished-at="2016-02-04T14:08:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TC-004]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[abc]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Username and password are required]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Alt]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="8341" started-at="2016-02-04T14:08:51Z" data-provider="DataProvider" finished-at="2016-02-04T14:09:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TC-005]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[minhqlrt]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Username and password are required]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Alt]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="8107" started-at="2016-02-04T14:09:00Z" data-provider="DataProvider" finished-at="2016-02-04T14:09:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TC-006]]>
               </value>
             </param>
             <param index="1">
@@ -187,6 +32,223 @@
             <param index="4">
               <value>
                 <![CDATA[Normal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTestMethod -->
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="8170" started-at="2016-02-04T16:19:54Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC-002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[minhqlrt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Incorrect username or password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTestMethod -->
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="7442" started-at="2016-02-04T16:20:02Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC-003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[minhqlrt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username and password are required]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTestMethod -->
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="9491" started-at="2016-02-04T16:20:09Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC-004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[san]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Incorrect username or password]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTestMethod -->
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="9402" started-at="2016-02-04T16:20:19Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC-005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[san]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username and password are required]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTestMethod -->
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="10154" started-at="2016-02-04T16:20:28Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC-006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username and password are required]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTestMethod -->
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="9632" started-at="2016-02-04T16:20:38Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC-007]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[san]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username and password are required]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTestMethod -->
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="8923" started-at="2016-02-04T16:20:48Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC-008]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username and password are required]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Alt]]>
               </value>
             </param>
           </params>

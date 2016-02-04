@@ -4,7 +4,6 @@
   <test name="Test">
     <classes>
       <class name="com.pkg.test.LogInTest"/>
-      <!-- <class name="com.pkg.parameters.ParaClass"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

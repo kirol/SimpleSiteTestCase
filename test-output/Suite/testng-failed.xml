@@ -6,13 +6,4 @@
       <class name="com.pkg.test.LogInTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
-      <class name="com.pkg.test.LogInTest">
-        <methods>
-          <include name="LogInTestMethod"/>
-        </methods>
-      </class> <!-- com.pkg.test.LogInTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

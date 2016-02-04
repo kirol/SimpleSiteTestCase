@@ -64,7 +64,6 @@
 	<classpathentry kind="lib" path="lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="D:/poi/commons-codec-1.9.jar"/>
 	<classpathentry kind="lib" path="D:/poi/commons-logging-1.1.3.jar"/>
-	<classpathentry kind="lib" path="D:/poi/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="D:/poi/poi-3.13-20150929.jar"/>
 	<classpathentry kind="lib" path="D:/poi/poi-examples-3.13-20150929.jar"/>
 	<classpathentry kind="lib" path="D:/poi/poi-excelant-3.13-20150929.jar"/>

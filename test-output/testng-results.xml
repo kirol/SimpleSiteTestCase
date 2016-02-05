@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="74330" started-at="2016-02-04T09:19:43Z" finished-at="2016-02-04T09:20:57Z">
+  <suite name="Suite" duration-ms="83186" started-at="2016-02-05T04:33:46Z" finished-at="2016-02-05T04:35:10Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="74330" started-at="2016-02-04T09:19:43Z" finished-at="2016-02-04T09:20:57Z">
+    <test name="Test" duration-ms="83186" started-at="2016-02-05T04:33:46Z" finished-at="2016-02-05T04:35:10Z">
       <class name="com.pkg.test.LogInTest">
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="10958" started-at="2016-02-04T16:19:43Z" data-provider="DataProvider" finished-at="2016-02-04T16:19:54Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="11250" started-at="2016-02-05T11:33:47Z" data-provider="DataProvider" finished-at="2016-02-05T11:33:58Z">
           <params>
             <param index="0">
               <value>
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="8170" started-at="2016-02-04T16:19:54Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:02Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="10623" started-at="2016-02-05T11:33:58Z" data-provider="DataProvider" finished-at="2016-02-05T11:34:08Z">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="7442" started-at="2016-02-04T16:20:02Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:09Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="11334" started-at="2016-02-05T11:34:08Z" data-provider="DataProvider" finished-at="2016-02-05T11:34:20Z">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="9491" started-at="2016-02-04T16:20:09Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:19Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="9279" started-at="2016-02-05T11:34:20Z" data-provider="DataProvider" finished-at="2016-02-05T11:34:29Z">
           <params>
             <param index="0">
               <value>
@@ -131,7 +131,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="9402" started-at="2016-02-04T16:20:19Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:28Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="10479" started-at="2016-02-05T11:34:29Z" data-provider="DataProvider" finished-at="2016-02-05T11:34:40Z">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="10154" started-at="2016-02-04T16:20:28Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:38Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="10612" started-at="2016-02-05T11:34:40Z" data-provider="DataProvider" finished-at="2016-02-05T11:34:50Z">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="9632" started-at="2016-02-04T16:20:38Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:48Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="9952" started-at="2016-02-05T11:34:50Z" data-provider="DataProvider" finished-at="2016-02-05T11:35:00Z">
           <params>
             <param index="0">
               <value>
@@ -224,7 +224,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogInTestMethod -->
-        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@35bbe5e8]" name="LogInTestMethod" duration-ms="8923" started-at="2016-02-04T16:20:48Z" data-provider="DataProvider" finished-at="2016-02-04T16:20:57Z">
+        <test-method status="PASS" signature="LogInTestMethod(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.pkg.test.LogInTest@7a0ac6e3]" name="LogInTestMethod" duration-ms="9468" started-at="2016-02-05T11:35:00Z" data-provider="DataProvider" finished-at="2016-02-05T11:35:10Z">
           <params>
             <param index="0">
               <value>

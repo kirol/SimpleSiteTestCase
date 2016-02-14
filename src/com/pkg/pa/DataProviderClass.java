@@ -22,7 +22,7 @@ public class DataProviderClass {
 		
 		
 		
-		FileInputStream in = new FileInputStream("D:\\eclipseee\\workplace\\SimpleSiteTestCase\\testdata.xls");
+		FileInputStream in = new FileInputStream("./testdata.xls");
 		Workbook workbook = new HSSFWorkbook(in);
 		Sheet sheet = workbook.getSheet("Sheet1");
 		// getLastRowNum returns a number with a count starts from 0

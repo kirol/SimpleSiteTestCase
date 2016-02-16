@@ -21,8 +21,14 @@
 		<delete dir="${report-dir/*}" />
 	</target>
 	
+	<!-- Make directories  -->
+	<target name="create-dir" depends="delete-dir">
+		<mkdir dir="${report-dir}" />
+		<mkdir dir="${bin}" />
+	</target>
+	
 	<!-- Compile the java code from ${src} into ${bin} .Create file .class--> 
-	<target name="compile" depends="delete-dir">
+	<target name="compile" depends="create-dir">
 		<javac srcdir="${src}" classpathref="classpath" includeAntRuntime="No" destdir="${bin}" />
 	</target>
 	
@@ -30,7 +36,7 @@
 	<taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="classpath" />
 	
 	<target name="testng-execution" depends="compile">
-		<mkdir dir="${report-dir}" />
+		
 		<testng outputdir="${report-dir}" classpathref="classpath" useDefaultListeners="true">
 			<xmlfileset dir="${basedir}" includes="testng.xml" />
 		</testng>
